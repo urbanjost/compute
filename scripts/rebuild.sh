@@ -9,8 +9,8 @@ cd $(dirname $0)/..
 (
 cd app
 export UFPP_DOCUMENT_DIR=$(pwd)
-# --cstyle doxygen --allow_links
-prep F90 TESTPRG90 --noenv --comment doxygen --verbose -i $NAME.[fF][fF] -o $NAME.f90
+# --allow_links
+prep F90 TESTPRG90 --comment doxygen --noenv --comment doxygen --verbose -i $NAME.[fF][fF] -o $NAME.f90
 )
 # build and install
 fpm install

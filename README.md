@@ -3,6 +3,7 @@
 Build compute(1) using fpm(1):
 ```bash
 git clone https://github.com/urbanjost/compute
+cd compute
 fpm install
 compute --help
 ```
