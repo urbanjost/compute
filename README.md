@@ -1,4 +1,4 @@
-### fpm-tools : [compute](https://urbanjost.github.io/compute/)
+### [fpm-tools](https://github.com/search?q="fpm-tools"%20in:topic%20language:fortran):[compute](https://urbanjost.github.io/compute/compute.1.html)
 
 Build compute(1) using fpm(1):
 ```bash
